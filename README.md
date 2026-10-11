@@ -23,7 +23,7 @@ DeepSeek Harness のプロファイル（通常は `web` プロファイル）�
 
 ```bash
 # GitHub リポジトリから直接追加
-dsh plugin --profile web add github:<your-username>/Dsh-font-JP
+dsh plugin --profile web add github:otetcham/Dsh-font-JP
 ```
 
 またはローカルディレクトリから直接リンク・追加する場合：
