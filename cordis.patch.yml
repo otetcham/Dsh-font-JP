@@ -1,0 +1,7 @@
+- insert:
+  - id: dsh-plugin-font-line-seed-jp
+    name: 'dsh-plugin-font-line-seed-jp'
+    config:
+      enabled: true
+      fontFamily: '"LINE Seed JP", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
+      weights: [100, 400, 700, 900]

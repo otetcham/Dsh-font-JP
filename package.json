@@ -1,0 +1,41 @@
+{
+  "name": "dsh-plugin-font-line-seed-jp",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness plugin that sets LINE Seed JP as the global font family for the application UI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "awesome-dsh-plugin",
+    "line-seed-jp",
+    "font",
+    "theme",
+    "typography"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
